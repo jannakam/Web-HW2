@@ -43,6 +43,12 @@
           padding: 2px;
           margin: 2px;
         }
+        .listType {
+          list-style-type: lower-alpha;
+        }
+        .borderDot {
+          border: 3px white dotted
+        }
 
 
      </style>
@@ -59,7 +65,7 @@
     
     <!-- 👇🏽   ul انشئ قائمة عشوائية بأكلاتك المفضلة  -->
          
-    <ul>
+    <ul class = borderDot>
       <li>Steak</li>
       <li>Sushi</li>
       <li>Pasta</li>
@@ -70,7 +76,7 @@
 
     <!-- 👇🏽  ol اكتب خطوات عمل اندومي ( اللي ما يعرف اندومي يحط خبز و جبن و اللي ما يعرف يكلمني خاص ☠ ) باستخدام قائمة مرقمة  -->
    
-    <ol>
+    <ol class = "listType">
       <li>Open the lid on the cup of noodles,</li>
       <li>Boil water in a kettle,</li>
       <li>Add the water to the noodles until it reaches the marked line,</li>
@@ -90,7 +96,7 @@
   <!-- 👇🏽 margin, padding , background-color, border :لتعديل  class  و اضف له الفقرة التي في الاسفل ثم اضف div قم بإنشاء   -->
 
   <div class="custom">
-    <p> CSS helps Web developers create a uniform look across several pages of a Web site. 
+    <p dir="rtl"> CSS helps Web developers create a uniform look across several pages of a Web site. 
     Instead of defining the style of each table and each block of text within a page's HTML, 
     commonly used styles need to be defined only once in a CSS document. Once the style is 
     defined in cascading style sheet, it can be used by any page that references the CSS file. 
